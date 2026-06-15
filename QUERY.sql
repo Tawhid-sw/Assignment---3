@@ -122,3 +122,4 @@ INSERT INTO Bookings (booking_id, user_id, match_id, seat_number, payment_status
 SELECT match_id, fixture, base_ticket_price
 FROM Matches WHERE tournament_category = 'Champions League'
 AND match_status = 'Available';
+
